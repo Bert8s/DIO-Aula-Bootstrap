@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <!-- Inicializando o documento -->
+  <head>
+    <!--Título dá página-->
+    <title>Meu site</title>
+    <!-- Configuração -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Adicionando arquivos do bootstrap e css pròprios -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />  
+  </head>
+
+  <!-- Conteúdo do site -->
+  <body>
+
+    <!-- Barra superior para navegar-->
+    <nav class="navbar navbar-expand-lg navbar-ligth">
+        <!-- Logo principal -->
+      <a class="navbar-brand" href="#">
+        <img src="img/global_labs.png" width="220" height="80" />
+      </a>
+
+      <!-- Menu navegador de 3 secções -->
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#quemsomos">Quem somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#parceiros">Parceiros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#servicos">Servicos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Seção Quem somos? -->
+    <section id="quemsomos">
+        <!-- Consta de um div com classes, algumas delas definidas pelo Bootstrap -->
+      <div class="container-fluid quem-somos text-center margin">
+        <h3 class="margin">QUEM SOMOS?</h3>
+        <img
+          src="img/time.jpeg"
+          class="rounded-circle"
+          width="500"
+          alt="Imagen do time"
+        />
+        <h3 class="margin">Somos um time comprometido com os resultados</h3>
+      </div>
+    </section>
+
+    <!-- Seção Parceiros -->
+    <selection id="parceiros">
+      <div class="container-fluid text-center parceiros margin">
+        <h3 class="margin">PARCEIROS</h3>
+        <!-- Implementadas 3 colunas. Estrutura copiada do exemplo 'Carousel' do Bootstrap -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 ">
+              <img
+                src="img/digital_innovation_one.png"
+                class="bd-placeholder-img"
+                width="100%"
+                height=""
+                alt=""
+              />
+              <h2>Digital Innovation One</h2>
+
+            </div>
+            <div class="col-md-4 ">
+                <img
+                  src="img/digital_innovation_one.png"
+                  class="bd-placeholder-img rounded-circle"
+                  width="100%"
+                  height=""
+                  alt=""
+                />
+                <h2>Digital Innovation One</h2>
+
+                
+              </div>
+              <div class="col-md-4 ">
+                <img
+                  src="img/digital_innovation_one.png"
+                  class="bd-placeholder-img rounded-circle"
+                  width="100%"
+                  height=""
+                  alt=""
+                />
+                <h2>Digital Innovation One</h2>
+                <p>
+
+              </div>
+          </div>
+        </div class="col-lg-4">
+      </div>
+    </selection>
+
+    <!-- Seção Serviços-->
+    <section id=servicos>
+        <div class="container-fluid text-center servicos margin">
+            <h3 class="margin">SERVICOS</h3>
+            <!-- Implementada a mesma estrutura de colunas da seção 'Parceiros'. Nesta vez com um texto adicionado abaixo de cada uma das imagens -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>
+                            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. 
+                          </p>
+                        <img src="img/app.jpeg" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>
+                            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. 
+                          </p>
+                        <img src="img/site.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>
+                            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. 
+                          </p>
+                        <img src="img/site2.jpeg" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapè -->
+    <footer>
+        <p class="container-fluid text-center bg-footer margin">Desenvolvido por Albert MS</p>
+    </footer>
+
+  </body>
+</html>

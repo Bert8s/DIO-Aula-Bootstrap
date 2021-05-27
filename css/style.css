@@ -1,0 +1,44 @@
+/* Condições gerais do body */
+
+body {
+  font: 20px arial, sans-serif;
+}
+
+/* Barra superior para navegar pelo site */
+.navbar {
+  background-color: #4d5a49;
+}
+
+/* Propriedades da classe 'margin' usada em varios elementos */
+.margin {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+/* Propriedades da primeira seção */
+.quem-somos {
+  background-color: rgb(201, 193, 148);
+}
+
+/* Propriedades da segunda seção */
+.parceiros {
+  background-color: #94b8c9;
+  /*background-color: #b0c994;*/
+}
+
+/* Propriedades da tercerira seção */
+.servicos {
+  background-color: #bab9da;
+}
+
+/* Propriedades do rodapé */
+.bg-footer {
+  background-color: rgb(126, 124, 124);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: rgb(223, 219, 219);
+}
